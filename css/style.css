@@ -1,30 +1,32 @@
-* {
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+*{
+    margin: 0;
 }
 
 .body{
-    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .wraper{
 width: 1200px;
-height: 500px;
 margin: 0 auto;
 }
 
 .header {
-    width: 100%;
     height: 53px;
     margin-top: 30px;
-    display: inline-block;
-    vertical-align: top;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(70, 164, 89, 0.5);
 }
 
-.home{
-    margin-left: 229px;
+.logo{
+    text-decoration: none;
+}
+
+.navbar{
+    margin-left: 194px;
+    margin-right: 344px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .login{
@@ -36,25 +38,33 @@ margin: 0 auto;
     display: inline-block;
     border-radius: 6px;
     vertical-align: top;
+    display: inline-flex;
 }
 
 .navigation{
+    text-decoration: none;
     color: #3D3D3D;
     font-size: 16px;
-    padding-left: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
     display: inline-block;
     vertical-align: top;
     margin-top: 7px;
 }
 
-.blogs{
-    padding-right: 25%;
+.navigation:hover{
+    color: #46A358;
+}
+
+.main{
+    margin-top: 12px;
+    background-color: #F5F5F5;
 }
 
 .info{
     display: inline-block;
     vertical-align: top;
-    width: 60%;
+    width: 55%;
     padding-left: 43px;
     padding-top: 68px;
 }
@@ -63,7 +73,7 @@ margin: 0 auto;
     font-size: 14px;
     color: #3D3D3D;
     line-height: 16px;
-    margin-bottom: -5%;
+    padding-bottom: 7px;
 }
 
 .h1{
@@ -71,7 +81,7 @@ margin: 0 auto;
     color: #3D3D3D;
     line-height: 70px;
     text-transform: uppercase;
-    margin-bottom: -1%;
+    padding-bottom: 5px;
 }
 
 .planet{
@@ -88,7 +98,7 @@ margin: 0 auto;
 .picture{
     display: inline-block;
     vertical-align: top;
-    width: 39%;
+    width: 40%;
 }
 
 .shop{
@@ -104,3 +114,4 @@ margin: 0 auto;
     font-weight: bold;
     text-transform: uppercase;
 }
+
